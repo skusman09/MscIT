@@ -1,5 +1,3 @@
-# PRACTICAL -14: WORKING ON PICTURES AND SPLITTING AN IMAGE INTO CHANNELS.
-# 01
 import sys
 import os
 import matplotlib.pyplot as plt

@@ -1,5 +1,3 @@
-
-# Outlier Detection 
 import pandas as pd
 sFileName='/content/IP_DATA_CORE.csv'
 IP_DATA_ALL=pd.read_csv(sFileName,header=0,low_memory=False,usecols=['Country','Place.Name','Latitude','Longitude'], encoding="latin-1")

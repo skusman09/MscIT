@@ -1,5 +1,3 @@
-# PRACTICAL-15: TO DETERMINE THE EDGES OF AN IMAGE(CUTTING THE EDGES)
-# 02
 import sys
 import os
 import matplotlib.pyplot as plt

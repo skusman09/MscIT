@@ -1,5 +1,3 @@
-# DS_P9_SVC Classification
-
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as maping
@@ -26,28 +24,24 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-# print('X_train', X_train)
-# print('X_test', X_test)
+print('X_train', X_train)
+print('X_test', X_test)
 
 from sklearn.svm import SVC
 svcclassifier = SVC(kernel = 'linear', random_state=0)
 svcclassifier.fit(X_train, y_train)
 
-# Predicting the Test set results
 y_pred = svcclassifier.predict(X_test)
 print(y_pred)
 
- #lets see the actual and predicted value side by side
 y_compare = np.vstack((y_test,y_pred)).T
-#actual value on the left side and predicted value on the right hand side
-#printing the top 5 values
+
 print(y_compare[:5,:])
 
-# Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 print(cm)
-#finding accuracy from the confusion matrix.
+
 a = cm.shape
 corrPred = 0
 falsePred = 0

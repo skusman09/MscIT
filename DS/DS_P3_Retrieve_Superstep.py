@@ -1,5 +1,3 @@
-
-# Understand Retrieve Superstep 
 import os
 import pandas as pd
 sFileName = "/content/IP_DATA_CORE.csv"

@@ -1,5 +1,4 @@
 
-# Outlier Detection 
 import pandas as pd
 InputFileName = 'IP_DATA_CORE.csv'
 OutputFileName = 'Retrieve_Router_Location.csv'

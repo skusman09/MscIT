@@ -1,23 +1,17 @@
-# HISTOGRAM USING MATPLOTLIB
-# importing matplotlib module
 from matplotlib import pyplot as plt
-# Y-axis values
+
 y = [10, 5, 8, 4, 2]
-# Function to plot histogram
+
 plt.hist(y)
-# Function to show the plot
+
 plt.show()
 
-
-##############PIE CHARTS###################
 import matplotlib.pyplot as plt
 import numpy as np
 y = np.array([35, 25, 25, 15])
 plt.pie(y)
 plt.show()
 
-
-###########PIE CHART WITH LABEL############
 import matplotlib.pyplot as plt
 labels = 'apple', 'banana', 'cherry', 'durian', 'elderberries', 'figs', 'grapes'
 sizes= [32, 20, 15, 10, 10, 8, 5]
@@ -35,8 +29,6 @@ for i, (apple, banana, cherry, durian, elderberries, figs, grapes) in enumerate(
     grapes.set_fontsize(12)
 plt.show()
 
-
-###########ADDING GRID LINES TO PLOT###################
 import numpy as np
 import matplotlib.pyplot as plt
 x = np.array([80, 85, 90, 95, 100, 105, 110, 115, 120, 125])
@@ -48,13 +40,12 @@ plt.plot(x, y)
 plt.grid()
 plt.show()
 
-###################STAIRS VALUE#######################
 import matplotlib.pyplot as plt
 import numpy as np
 plt.style.use('_mpl-gallery')
-# make data
+
 y = [4.8, 5.5, 3.5, 4.6, 6.5, 6.6, 2.6, 3.0]
-# plot
+
 fig, ax = plt.subplots()
 ax. stairs(y, linewidth=2.5)
 ax.set(xlim=(0, 8), xticks=np.arange(1, 8),
