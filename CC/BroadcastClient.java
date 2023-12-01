@@ -7,7 +7,6 @@ public class BroadcastClient
     
     public static void main(String args[])throws Exception 
     {
-        
         MulticastSocket socket;
         DatagramPacket packet;
         InetAddress address;
@@ -19,7 +18,6 @@ public class BroadcastClient
         //join a Multicast group and wait for a message 
         socket.joinGroup(address); 
         byte[] data = new byte[100];
-
         packet = new DatagramPacket(data, data.length);
 
         for(;;) //Infinite Loop which runs continously
