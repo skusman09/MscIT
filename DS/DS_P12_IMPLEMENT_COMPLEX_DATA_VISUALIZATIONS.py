@@ -1,4 +1,4 @@
-# 1. Area Graph
+# 1
 import datetime
 import numpy as np
 import pandas as pd
@@ -15,7 +15,7 @@ plt.ylabel('Turnover (K euros) of ice-cream', size=12)
 plt.ylim(bottom=0)
 plt.show()
 
-# 2. Scatter plots
+# 2
 import numpy as np
 import matplotlib.pyplot as plt
 plt.scatter(x=range(-10, 38, 1), y=range(770, 60, -15)-np.random.randn(48)*40,
@@ -25,7 +25,7 @@ plt.xlabel('Temperature(°C)', size=12)
 plt.ylabel('Volume per store', size=12)
 plt.show()
 
-# 3. Kernel Density Estimate
+# 3
 import sys
 import os
 import pandas as pd
@@ -41,7 +41,7 @@ plt.savefig(sPicNameOut1,dpi=600)
 plt.tight_layout()
 plt.show()
 
-# 4. Scatter Plot Matrix
+# 4
 import sys
 import os
 import pandas as pd
@@ -57,7 +57,7 @@ plt.savefig(sPicNameOut2, dpi=600)
 plt.tight_layout()
 plt.show()
 
-# 5. Parallel Coordinates
+# 5
 import sys
 import os
 import pandas as pd
@@ -74,7 +74,7 @@ plt.savefig(spicNameOut2, dpi=600)
 plt.tight_layout()
 plt.show()
 
-# 6. Autocorrelation Plot
+# 6
 import sys
 import os
 import pandas as pd
