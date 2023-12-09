@@ -1,0 +1,25 @@
+Q.1 What is cloud computing ? explain the cloud computing architecture explain with neat diagram.
+
+Q.2 Explain the different Cloud Delivery Models.
+
+Q.3 State the difference between Public Cloud and Private Cloud.
+
+Q.4 What are different cloud security threats?
+
+Q.5 Whats are different Threat Agents in cloud infrastructure ?
+
+Q.6 How Malicious Intermediary can attack cloud service?
+
+Q.7 Explain the Amazon elastic block store and Amazon elastic cache?
+
+Q.8 State and explain the different application services offered by Google app engine  
+
+Q.9 Describe Amazon EC2 and its basic features.
+
+Q.10 What is a bucket?What type of storage does it provide?
+
+Q.11 Describe the core components of AppEngine.
+
+Q.12 What is Data Store? What type of data can be stored in it?
+
+Q.13 What are the differences between Amazon SimpleDB and Amazon RDS?
